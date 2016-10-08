@@ -30,7 +30,7 @@ object Restaurants {
   def update(restaurant:CompleteRestaurant):Future[Int] = {
     dbConfig.db.run(restaurants.filter(_.id === restaurant.id).update(restaurant))
   }
-  // El retorno con INT es a cuantos elementos les hicieron el tales
+   
   def delete(id:Long):Future[Int] = {
     dbConfig.db.run(restaurants.filter(_.id === id).delete)
   }

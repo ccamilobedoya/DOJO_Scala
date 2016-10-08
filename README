@@ -1,3 +1,20 @@
+activator
+compile
+run
+
+http://localhost:9000/restaurants
+
+{
+	"name": "Comedero",
+	"city": "medasho",
+	"address": "c4 54325 - 23",
+	"phone": 4545656
+}
+
+
+
+
+
 This is your new Play application
 =================================
 
